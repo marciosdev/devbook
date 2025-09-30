@@ -1,0 +1,46 @@
+```
+# Arquivo .gitignore para projetos Go
+
+# Binários gerados pelo Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Arquivos de build
+*.out
+*.o
+
+# Pasta bin se existir
+/bin/
+/out/
+/dist/
+
+# Dependências (caso use vendoring)
+vendor/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDEs/editores
+.vscode/
+.idea/
+*.iml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+```
